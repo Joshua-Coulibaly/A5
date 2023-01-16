@@ -46,9 +46,6 @@ await getMovies();
     </div>
   </template>
   <SiteModal v-if="showModal" @toggleModal="closeModal()" :id="selectedId" />
-  <div class="footer">
-    <Footer></Footer>
-  </div>
 </template>
  
 <style>
@@ -62,6 +59,7 @@ await getMovies();
   padding-bottom: -50px;
   margin-right: -10px;
   margin-left: 15px;
+  background-color: lightblue;
 }
  
 img {

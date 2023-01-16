@@ -6,7 +6,7 @@ const username = ref("");
 const password = ref("");
 const error = ref(false);
 const login = () => {
-  if (username.value === "Tmdb" && password.value === "Movies") {
+  if (username.value === "tmdb" && password.value === "movies") {
     router.push("/purchase");
   } else {
     error.value = true;
@@ -30,6 +30,7 @@ const login = () => {
 
 <style scoped>
 .home-container {
+  background-color:lightblue;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,8 +45,10 @@ form {
 }
 form input {
   padding: 0.25rem;
-  color: purple;
+  color: lightblue;
   font-size: 1.5rem;
   font-weight: bold;
 }
+
+
 </style>

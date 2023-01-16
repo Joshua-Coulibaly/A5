@@ -4,14 +4,20 @@
 
 <template>
     <div>
-        <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp6608538.jpg&imgrefurl=https%3A%2F%2Fwallpapercave.com%2Fmovie-theater-wallpapers&tbnid=52dOL0hA6EYITM&vet=12ahUKEwiilNSGtL38AhVho3IEHcXnBkYQMygJegUIARCCAg..i&docid=HLdf2kiqOskwDM&w=1388&h=880&q=movie%20theatre%20background&ved=2ahUKEwiilNSGtL38AhVho3IEHcXnBkYQMygJegUIARCCAg" alt="MovieBackground">
-<p class="formatp">grwgga <br> grgrgrwa</p>
+        <img src="https://media.istockphoto.com/id/1058727850/vector/abstract-shiny-background-with-blank-film-strips-and-copy-space.jpg?s=612x612&w=0&k=20&c=8o62Z8rY_RQFpqg7fPVCEzvD4iUCG_3Zvkohu0lv1dY=">
+<p class="formatp"> <br> </p>
     </div>
 </template>
 
 <style scoped>
 h1{
     text-align: center;
+   
+}
+
+img{
+    height: 600px;
+    width: 1500;
 }
 
 </style>

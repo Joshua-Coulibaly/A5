@@ -8,7 +8,7 @@ const button = () => {
 </script>
 
 <template>
-<h1>Movies</h1>
+<h1>Movie Paradise</h1>
 
 <button @click="button()" class="button">Login</button>
 </template>
@@ -16,7 +16,7 @@ const button = () => {
 <style scoped>
 h1{
     text-align: center;
-    background-color: aqua;
+    background-color:lightblue
 }
 
 
